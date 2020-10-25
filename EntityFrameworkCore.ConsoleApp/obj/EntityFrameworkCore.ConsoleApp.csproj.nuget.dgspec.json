@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore.ConsoleApp\\EntityFrameworkCore.ConsoleApp.csproj": {}
+    "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.ConsoleApp\\EntityFrameworkCore.ConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore.ConsoleApp\\EntityFrameworkCore.ConsoleApp.csproj": {
+    "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.ConsoleApp\\EntityFrameworkCore.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore.ConsoleApp\\EntityFrameworkCore.ConsoleApp.csproj",
+        "projectUniqueName": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.ConsoleApp\\EntityFrameworkCore.ConsoleApp.csproj",
         "projectName": "EntityFrameworkCore.ConsoleApp",
-        "projectPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore.ConsoleApp\\EntityFrameworkCore.ConsoleApp.csproj",
+        "projectPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.ConsoleApp\\EntityFrameworkCore.ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore.ConsoleApp\\obj\\",
+        "outputPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj": {
-                "projectPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj"
+              "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj": {
+                "projectPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj": {
+    "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj",
+        "projectUniqueName": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj",
         "projectName": "EntityFrameworkCore.Data",
-        "projectPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj",
+        "projectPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore.Data\\obj\\",
+        "outputPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

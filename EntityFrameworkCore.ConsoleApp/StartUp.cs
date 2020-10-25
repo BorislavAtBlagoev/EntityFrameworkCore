@@ -17,7 +17,8 @@ namespace EntityFrameworkCore.ConsoleApp
             //var result = GetEmployeesFromResearchAndDevelopment(context);
             //var result = AddNewAddressToEmployee(context);
             //var result = GetEmployeesInPeriod(context);
-            var result = GetAddressesByTown(context);
+            //var result = GetAddressesByTown(context);
+            var result = GetEmployee147(context);
 
             Console.WriteLine(result);
         }
@@ -200,5 +201,34 @@ namespace EntityFrameworkCore.ConsoleApp
                 .TrimEnd();
         }
 
+        public static string GetEmployee147(SoftUniContext context)
+        {
+            var sb = new StringBuilder();
+
+            var employee = context.Employees
+                .Where(e => e.EmployeeId == 147)
+                .Select(e => new
+                {
+                    e.EmployeeId,
+                    e.FirstName,
+                    e.LastName,
+                    e.JobTitle,
+                    Projects = e.EmployeesProjects
+                        .OrderBy(ep => ep.Project.Name)
+                        .Select(ep => ep.Project.Name)
+                })
+                .FirstOrDefault();
+
+            sb.AppendLine($"{employee.FirstName} {employee.LastName} - {employee.JobTitle}");
+
+            foreach (var project in employee.Projects)
+            {
+                sb.AppendLine($"-------{project}");
+            }
+
+            return sb
+                .ToString()
+                .TrimEnd();
+        }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5mR2rJfUSfen987HxCdBFr0UOXaNMBm5xROaF+auVxdxgR2C9Qpqlk0PYPcl8S1wz/4BTL4cN1IObH6FjUQk4A==",
+  "dgSpecHash": "ztWbRsPs9Y1WBQSl88ymUp13K6rRLJ0P2TJtnp9O60s2yjfVcXjoVEk3FpSWlmMeO4AcxFp66LocN0StmdXiTg==",
   "success": true,
-  "projectFilePath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj",
+  "projectFilePath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

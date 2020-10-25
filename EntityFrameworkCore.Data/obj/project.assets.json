@@ -5705,11 +5705,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj",
+      "projectUniqueName": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj",
       "projectName": "EntityFrameworkCore.Data",
-      "projectPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj",
+      "projectPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore.Data\\obj\\",
+      "outputPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
