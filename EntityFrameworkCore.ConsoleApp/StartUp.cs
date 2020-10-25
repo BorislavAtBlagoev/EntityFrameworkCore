@@ -18,7 +18,8 @@ namespace EntityFrameworkCore.ConsoleApp
             //var result = AddNewAddressToEmployee(context);
             //var result = GetEmployeesInPeriod(context);
             //var result = GetAddressesByTown(context);
-            var result = GetEmployee147(context);
+            //var result = GetEmployee147(context);
+            var result = GetDepartmentsWithMoreThan5Employees(context);
 
             Console.WriteLine(result);
         }
@@ -224,6 +225,46 @@ namespace EntityFrameworkCore.ConsoleApp
             foreach (var project in employee.Projects)
             {
                 sb.AppendLine($"-------{project}");
+            }
+
+            return sb
+                .ToString()
+                .TrimEnd();
+        }
+
+        public static string GetDepartmentsWithMoreThan5Employees(SoftUniContext context)
+        {
+            var sb = new StringBuilder();
+
+            var departments = context.Departments
+                .Where(d => d.Employees.Count > 5)
+                .Select(d => new
+                {
+                    DepartmentName = d.Name,
+                    ManagerFirstName = d.Manager.FirstName,
+                    ManagerLastName = d.Manager.LastName,
+                    Employees = d.Employees
+                        .OrderBy(e => e.FirstName)
+                        .ThenBy(e => e.LastName)
+                        .Select(e => new
+                        {
+                            e.FirstName,
+                            e.LastName,
+                            e.JobTitle
+                        })
+                })
+                .OrderBy(d => d.Employees.Count())
+                .ThenBy(d => d.DepartmentName)
+                .ToList();
+
+            foreach (var department in departments)
+            {
+                sb.AppendLine($"{department.DepartmentName} - {department.ManagerFirstName} {department.ManagerLastName}");
+
+                foreach (var employee in department.Employees)
+                {
+                    sb.AppendLine($"------{employee.FirstName} {employee.LastName} - {employee.JobTitle}");
+                }
             }
 
             return sb
