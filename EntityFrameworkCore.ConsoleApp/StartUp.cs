@@ -23,10 +23,10 @@ namespace EntityFrameworkCore.ConsoleApp
             //var result = GetLatestProjects(context);
             //var result = IncreaseSalaries(context);
             //var result = GetEmployeesByFirstNameStartingWithSa(context);
-            var result = DeleteProjectById(context, 2);
+            //var result = DeleteProjectById(context, 2);
             //var result = RemoveTown(context, "Seattle");
 
-            Console.WriteLine(result);
+            //Console.WriteLine(result);
         }
 
         public static string GetEmployeesFullInformation(SoftUniContext context)
