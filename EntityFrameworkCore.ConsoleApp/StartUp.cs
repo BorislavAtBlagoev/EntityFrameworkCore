@@ -23,8 +23,8 @@ namespace EntityFrameworkCore.ConsoleApp
             //var result = GetLatestProjects(context);
             //var result = IncreaseSalaries(context);
             //var result = GetEmployeesByFirstNameStartingWithSa(context);
-            //var result = DeleteProjectById(context, 2);
-            var result = RemoveTown(context, "Seattle");
+            var result = DeleteProjectById(context, 2);
+            //var result = RemoveTown(context, "Seattle");
 
             Console.WriteLine(result);
         }
@@ -379,8 +379,8 @@ namespace EntityFrameworkCore.ConsoleApp
             var employeesProjects = context.EmployeesProjects
                 .Where(ep => ep.Project.ProjectId == project.ProjectId);
 
-            context.RemoveRange(employeesProjects);
-            context.Remove(project);
+            context.EmployeesProjects.RemoveRange(employeesProjects);
+            context.Projects.Remove(project);
             context.SaveChanges();
 
             var projectsToPrint = context.Projects
@@ -404,24 +404,23 @@ namespace EntityFrameworkCore.ConsoleApp
         public static string RemoveTown(SoftUniContext context, string townName)
         {
             var townForDelete = context.Towns
-                .Where(t => t.Name == townName)
-                .FirstOrDefault();
+                .FirstOrDefault(t => t.Name == townName);
 
-            var addresses = context.Addresses
-                .Where(a => a.TownId == townForDelete.TownId);
+            var addressesInTown = context.Addresses
+                .Where(a => a.Town == townForDelete);
 
-            var employees = context.Employees
-                .Where(e => addresses.Contains(e.Address));
+            var employeesWithTheRelevantAddress = context.Employees
+                .Where(e => addressesInTown.Contains(e.Address));
 
-            foreach (var employee in employees)
+            foreach (var employee in employeesWithTheRelevantAddress)
             {
-                employee.Address = null;
+                employee.AddressId = null;
             }
 
-            var removedAddresses = addresses.Count();
+            var removedAddresses = addressesInTown.Count();
 
-            context.RemoveRange(addresses);
-            context.Remove(townForDelete);
+            context.Addresses.RemoveRange(addressesInTown);
+            context.Towns.Remove(townForDelete);
             context.SaveChanges();
 
             var result = $"{removedAddresses} addresses in {townName} were deleted";
