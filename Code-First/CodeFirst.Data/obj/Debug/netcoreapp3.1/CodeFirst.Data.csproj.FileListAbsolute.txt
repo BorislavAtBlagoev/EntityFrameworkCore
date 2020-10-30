@@ -10,3 +10,15 @@ D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exerci
 D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\EntityFrameworkCode-First\CodeFirst.Data\obj\Debug\netcoreapp3.1\CodeFirst.Data.dll
 D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\EntityFrameworkCode-First\CodeFirst.Data\obj\Debug\netcoreapp3.1\CodeFirst.Data.pdb
 D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\EntityFrameworkCode-First\CodeFirst.Data\obj\Debug\netcoreapp3.1\CodeFirst.Data.genruntimeconfig.cache
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\EntityFrameworkCore\Code-First\CodeFirst.Data\bin\Debug\netcoreapp3.1\CodeFirst.Data.deps.json
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\EntityFrameworkCore\Code-First\CodeFirst.Data\bin\Debug\netcoreapp3.1\CodeFirst.Data.runtimeconfig.json
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\EntityFrameworkCore\Code-First\CodeFirst.Data\bin\Debug\netcoreapp3.1\CodeFirst.Data.runtimeconfig.dev.json
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\EntityFrameworkCore\Code-First\CodeFirst.Data\bin\Debug\netcoreapp3.1\CodeFirst.Data.dll
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\EntityFrameworkCore\Code-First\CodeFirst.Data\bin\Debug\netcoreapp3.1\CodeFirst.Data.pdb
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\EntityFrameworkCore\Code-First\CodeFirst.Data\obj\Debug\netcoreapp3.1\CodeFirst.Data.csprojAssemblyReference.cache
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\EntityFrameworkCore\Code-First\CodeFirst.Data\obj\Debug\netcoreapp3.1\CodeFirst.Data.AssemblyInfoInputs.cache
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\EntityFrameworkCore\Code-First\CodeFirst.Data\obj\Debug\netcoreapp3.1\CodeFirst.Data.AssemblyInfo.cs
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\EntityFrameworkCore\Code-First\CodeFirst.Data\obj\Debug\netcoreapp3.1\CodeFirst.Data.csproj.CoreCompileInputs.cache
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\EntityFrameworkCore\Code-First\CodeFirst.Data\obj\Debug\netcoreapp3.1\CodeFirst.Data.dll
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\EntityFrameworkCore\Code-First\CodeFirst.Data\obj\Debug\netcoreapp3.1\CodeFirst.Data.pdb
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\EntityFrameworkCore\Code-First\CodeFirst.Data\obj\Debug\netcoreapp3.1\CodeFirst.Data.genruntimeconfig.cache

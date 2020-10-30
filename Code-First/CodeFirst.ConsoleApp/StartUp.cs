@@ -10,7 +10,6 @@ namespace CodeFirst.ConsoleApp
     {
         public static void Main()
         {
-            
         }
     }
 }
