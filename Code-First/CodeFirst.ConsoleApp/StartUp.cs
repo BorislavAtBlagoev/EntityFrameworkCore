@@ -10,17 +10,7 @@ namespace CodeFirst.ConsoleApp
     {
         public static void Main()
         {
-            using (var db = new HospitalContext())
-            {
-                var medicament = new Medicament
-                {
-                    Name = "Gosho"
-                };
-
-
-                db.Medicaments.Add(medicament);
-                db.SaveChanges();
-            }
+            
         }
     }
 }

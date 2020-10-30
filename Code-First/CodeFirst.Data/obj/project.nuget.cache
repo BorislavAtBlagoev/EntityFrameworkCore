@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yzt9q0tmmzlSWJLnG/0NO83cPX2Nxv6vH1cI3Bh0wLtN2ERvMpQA/QaeDlqdXinylvGckTQwdeAQSBs4H+luJQ==",
+  "dgSpecHash": "IscMGYPKfPUKHvBPR+soCaLikXIiCpZLM8/eiTX7tR/upScqHMy5lZ45S1iaGWY1rAMM3unWDCuLS0aZntOYUw==",
   "success": true,
-  "projectFilePath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCode-First\\CodeFirst.Data\\CodeFirst.Data.csproj",
+  "projectFilePath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\Code-First\\CodeFirst.Data\\CodeFirst.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

@@ -5725,11 +5725,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCode-First\\CodeFirst.ConsoleApp\\CodeFirst.ConsoleApp.csproj",
+      "projectUniqueName": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\Code-First\\CodeFirst.ConsoleApp\\CodeFirst.ConsoleApp.csproj",
       "projectName": "CodeFirst.ConsoleApp",
-      "projectPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCode-First\\CodeFirst.ConsoleApp\\CodeFirst.ConsoleApp.csproj",
+      "projectPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\Code-First\\CodeFirst.ConsoleApp\\CodeFirst.ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCode-First\\CodeFirst.ConsoleApp\\obj\\",
+      "outputPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\Code-First\\CodeFirst.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5748,8 +5748,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCode-First\\CodeFirst.Data\\CodeFirst.Data.csproj": {
-              "projectPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCode-First\\CodeFirst.Data\\CodeFirst.Data.csproj"
+            "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\Code-First\\CodeFirst.Data\\CodeFirst.Data.csproj": {
+              "projectPath": "D:\\University\\SoftUni\\professionalModules\\C#\\C# DataBase\\Entity Framework\\Exercise\\EntityFrameworkCore\\Code-First\\CodeFirst.Data\\CodeFirst.Data.csproj"
             }
           }
         }
