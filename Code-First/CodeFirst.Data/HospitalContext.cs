@@ -11,7 +11,6 @@ namespace CodeFirst.Data
         public DbSet<Medicament> Medicaments { get; set; }
         public DbSet<Diagnose> Diagnoses { get; set; }
         public DbSet<PatientMedicament> PatientsMedicaments { get; set; }
-
         public DbSet<Doctor> Doctors { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
