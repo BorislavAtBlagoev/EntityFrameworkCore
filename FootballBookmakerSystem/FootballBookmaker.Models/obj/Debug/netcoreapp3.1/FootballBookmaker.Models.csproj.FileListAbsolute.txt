@@ -1,0 +1,9 @@
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\FootballBookmaker\FootballBookmaker.Models\bin\Debug\netcoreapp3.1\FootballBookmaker.Models.deps.json
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\FootballBookmaker\FootballBookmaker.Models\bin\Debug\netcoreapp3.1\FootballBookmaker.Models.dll
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\FootballBookmaker\FootballBookmaker.Models\bin\Debug\netcoreapp3.1\FootballBookmaker.Models.pdb
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\FootballBookmaker\FootballBookmaker.Models\obj\Debug\netcoreapp3.1\FootballBookmaker.Models.csprojAssemblyReference.cache
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\FootballBookmaker\FootballBookmaker.Models\obj\Debug\netcoreapp3.1\FootballBookmaker.Models.AssemblyInfoInputs.cache
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\FootballBookmaker\FootballBookmaker.Models\obj\Debug\netcoreapp3.1\FootballBookmaker.Models.AssemblyInfo.cs
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\FootballBookmaker\FootballBookmaker.Models\obj\Debug\netcoreapp3.1\FootballBookmaker.Models.csproj.CoreCompileInputs.cache
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\FootballBookmaker\FootballBookmaker.Models\obj\Debug\netcoreapp3.1\FootballBookmaker.Models.dll
+D:\University\SoftUni\professionalModules\C#\C# DataBase\Entity Framework\Exercise\FootballBookmaker\FootballBookmaker.Models\obj\Debug\netcoreapp3.1\FootballBookmaker.Models.pdb
